@@ -57,3 +57,7 @@ Mentor(s):
 **Shantanu Jha** — PhD student building error-corrected bosonic qubits at MIT
 
 Don't hesitate to reach out with questions. We're here to help.
+
+# Note on AI-Assisted Coding & External Packages
+
+You are actively encouraged to use all tools at your disposal, including AI-assisted coding and external packages. Although simplified, this challenge is not a textbook problem — it sits at the frontier of research. Approach it accordingly: just as a researcher would leverage every available resource, so should you. 
