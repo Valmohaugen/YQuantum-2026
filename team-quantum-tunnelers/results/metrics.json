@@ -1,0 +1,89 @@
+{
+  "study_config": {
+    "print_every": 2
+  },
+  "bounds": [
+    [
+      0.75,
+      1.25
+    ],
+    [
+      -0.2,
+      0.2
+    ],
+    [
+      3.1,
+      4.9
+    ],
+    [
+      -0.35,
+      0.35
+    ]
+  ],
+  "drift_model": "step",
+  "drift_step_epochs": 20,
+  "drift_levels": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.10000000149011612,
+      0.05999999865889549,
+      0.2199999988079071,
+      -0.07999999821186066
+    ]
+  ],
+  "no_drift": [
+    {
+      "run_kind": "no_drift",
+      "n": 200.0,
+      "epochs": 30,
+      "final_reward": 142.16353259372036,
+      "best_reward": 143.8998249789782,
+      "best_reward_epoch": 12,
+      "best_Tz": 71.95340882938666,
+      "best_Tx": 0.3604499253591654,
+      "best_bias": 199.6210951013228,
+      "closest_bias": 200.02206293599153,
+      "closest_bias_epoch": 15,
+      "closest_bias_error": 0.022062935991527866,
+      "final_mean_Re_g2": 1.1527306964479294,
+      "final_mean_Im_g2": 0.013497502611440712,
+      "final_mean_Re_eps_d": 4.349005342744542,
+      "final_mean_Im_eps_d": -0.10290487111128072
+    }
+  ],
+  "drift": {
+    "run_kind": "drift",
+    "n": 200.0,
+    "epochs": 30,
+    "final_reward": -962.8563585331499,
+    "best_reward": 143.3387465338682,
+    "best_reward_epoch": 17,
+    "best_Tz": 71.78347779551052,
+    "best_Tx": 0.3583242872751156,
+    "best_bias": 200.33104186542712,
+    "closest_bias": 199.9941422040903,
+    "closest_bias_epoch": 1,
+    "closest_bias_error": 0.005857795909690822,
+    "final_mean_Re_g2": 1.1215759064928308,
+    "final_mean_Im_g2": -0.07237119919203629,
+    "final_mean_Re_eps_d": 4.5530085731079595,
+    "final_mean_Im_eps_d": 0.11938753507655486,
+    "tracking_rmse_Re_g2": 0.0628155530463448,
+    "tracking_rmse_Im_g2": 0.04231483371042218,
+    "tracking_rmse_Re_eps_d": 0.08773377858320013,
+    "tracking_rmse_Im_eps_d": 0.09412869959862458
+  },
+  "plots": [
+    "C:\\Users\\bodhi\\YaleQuantumHackathon\\output\\jupyter-notebook\\cat-qubit-loss-experiments\\no_drift_reward_bias_comparison.png",
+    "C:\\Users\\bodhi\\YaleQuantumHackathon\\output\\jupyter-notebook\\cat-qubit-loss-experiments\\no_drift_lifetime_comparison.png",
+    "C:\\Users\\bodhi\\YaleQuantumHackathon\\output\\jupyter-notebook\\cat-qubit-loss-experiments\\drift_tracking_n_200.png",
+    "C:\\Users\\bodhi\\YaleQuantumHackathon\\output\\jupyter-notebook\\cat-qubit-loss-experiments\\cma_epoch_wigner.gif",
+    "C:\\Users\\bodhi\\YaleQuantumHackathon\\output\\jupyter-notebook\\cat-qubit-loss-experiments\\cma_best_tz_linear_fit.png",
+    "C:\\Users\\bodhi\\YaleQuantumHackathon\\output\\jupyter-notebook\\cat-qubit-loss-experiments\\cma_best_tx_linear_fit.png"
+  ]
+}
